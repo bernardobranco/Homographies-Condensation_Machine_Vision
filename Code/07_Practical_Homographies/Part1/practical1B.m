@@ -1,11 +1,5 @@
 function practical1B
 
-%the aim of the second part of practical 1 is to use the homography routine
-%that you established in the first part of the practical.  We are going to
-%make a panorama of several images that are related by a homography.  I
-%provide 3 images (one of which is has a large surrounding region) and a
-%matching set of points between these images.
-
 %close all open figures
 close all;
 
