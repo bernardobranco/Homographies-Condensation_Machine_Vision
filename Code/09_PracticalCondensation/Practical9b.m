@@ -1,30 +1,4 @@
 function r=Practical9b
-% Part b: Condensation
-%
-% Now, we will track a given shape (template) as it moves in a sequence of
-% frames. Our shape/appearance model is trivial: just a template, given.
-% We will only explore simple motion models. Such models may
-% contain a variable that switches between cars and pedestrians, or traffic
-% in different directions, or accelerating etc.
-% 
-% Note: depending on the motion model, the state w will have different
-% numbers of dimensions (not just 2, though that's the default). 
-%
-% Most of this algorithm should be copied from Part a. An important
-% difference is that now we'll actually compute the likelihood using the
-% (provided) MeasurePatchSimilarityHere() function.
-%
-%
-% Complete reamining TO DO parts you didn't answer in Part a, run the code 
-% over the sequence, and observe the results. 
-%
-% Then TO DO:
-% - Try varying the number of particles: 2000, 500, 100,...
-% - Change the state to have 2 more degrees of freedom: velX and velY.
-%   (This will require you to change how state-predictions are made, and 
-%   how they are converted to measurement-space)
-% - Visualize the top-scoring particles (more than just 1!)
-
 
 % Load template and starting position ('pos'), which come from frame 871.
 load Template
