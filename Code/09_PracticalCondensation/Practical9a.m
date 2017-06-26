@@ -1,25 +1,4 @@
 function r = Practical9a
-% Overall, you should learn how to use the Condensation algorithm in this
-% practical. 
-%
-% Part a: Factored Sampling
-% This part is mostly illustrative, so you just have a few TODO's.
-% Condensation is actually Factored Sampling, but applied iteratively to
-% a sequence of observations, and incorporating a motion model. So here,
-% time will essentially stand still: given a SINGLE set of "observations",
-% can you estimate the posterior probabilities? 
-% Observations will be simulated: The real 2D distribution we would like 
-% to estimate is the red channel of an abstract image (provided). But
-% pretend you can't look at the whole image, and can only take measurements
-% here and there. 
-% Below, you have the code for factored sampling, but note the comment
-% "Loop from here". Looping will only be needed in Part b because we will have a
-% changing state, so each loop will advance from t to t+1. Here, you can
-% abuse factored sampling a little, and loop "in place". If time were
-% advancing and you had a real motion model, that would be Condensation.
-% Observe: when you do this factored REsampling, more of the particles 
-% should be landing near the peaks in the distribution.
-
 
 img = double(imread( 'abstract.png' ));
 MeasurementsComprehensive = img(:,:,1);
