@@ -1,10 +1,5 @@
 function practical1
 
-%The aim of practical 1 is to calculate the homography that best maps two
-%sets of points to one another.  We will (eventually) use this for creating
-%panoramas, and for calculating the 3d pose of planes.  You should use this
-%template for your code and fill in the missing sections marked "TO DO"
-
 %close all open figures
 close all;
 
