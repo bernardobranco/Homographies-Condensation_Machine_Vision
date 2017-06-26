@@ -1,11 +1,5 @@
 function practical2b
 
-%The goal of this part of the practical is to take a real image containing
-%a planar black square and figure out the transformation between the square
-%and the camera.  We will then draw a wire-frame cube with it's base
-%corners at the corner of the square.  You should use this
-%template for your code and fill in the missing sections marked "TO DO"
-
 %load in image 
 im = imread('test104.jpg');
 
