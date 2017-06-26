@@ -1,21 +1,4 @@
 function r=HW2_Practical9c( templateMetaFileName )
-%
-% You'll end up calling this function four times (once each with 'll',
-% 'lr', 'ul', 'ur'). For each time you'll get an estimated track (2D
-% locations over time) of corner of the pattern moved. Note that we're
-% saving off the single MAP estimate at each frame, but the particles in
-% the Particle Filter are attempting to keep track of the whole posterior
-% distribution. 
-% 
-% Most TO DO parts below should be copy-paste from Practical9a and
-% Practical9b.
-% 
-% Some implementation trivia (i.e. you shouldn't have to worry about
-% these changes): 
-% MeasurePatchSimilarityHere.m and PatchDistPicker.m have been modified from
-% their previous versions to cope with these particular gray-scale images. 
-% If you want to run ExhaustiveTemplateSearchDemo.m, you'll want to run
-% with the older versions of those two files (available on Moodle).
 
 LoadVideoFrames
 
