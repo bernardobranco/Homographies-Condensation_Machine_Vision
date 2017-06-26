@@ -1,13 +1,5 @@
 function r=practical2
 
-%This project explores the geometry of a single camera. The aim is to take several points on
-%a plane, and predict where they will appear in the camera image. Based on these observed
-%points, we will then try to re-estimate the Euclidean transformation relating the plane and
-%the camera. In practical 2b we will use this code to draw a wireframe cube
-%on an augmented reality marker.   You should use this
-%template for your code and fill in the missing sections marked "TO DO"
-
-
 %We assume that the intrinsic camera matrix K is known and has values
 K = [640  0    320;...
      0    640  240;
